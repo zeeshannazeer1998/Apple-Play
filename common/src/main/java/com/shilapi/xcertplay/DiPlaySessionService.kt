@@ -61,7 +61,7 @@ class DiPlaySessionService : Service() {
         stopSelf()
     }
     companion object {
-        const val ACTION_STOP = "com.shihab.diplay.DISCONNECT"
+        const val ACTION_STOP = "com.zeeshannazeer1998.appleplay.DISCONNECT"
         private const val CHANNEL = "diplay_connection"
     }
 }

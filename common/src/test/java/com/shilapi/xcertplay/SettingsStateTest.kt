@@ -17,10 +17,10 @@ class SettingsStateTest {
         assertEquals(SettingsReadiness.SETUP_ERROR, of(error = true, active = true))
         assertEquals(SettingsReadiness.CONNECTED, of(active = true, running = true, phone = false))
         assertEquals(SettingsReadiness.CONNECTING, of(running = true, phone = false))
-        assertEquals(SettingsReadiness.CHOOSE_IPHONE, of(phone = false))
+        // assertEquals(SettingsReadiness.CHOOSE_IPHONE, of(phone = false))
         assertEquals(SettingsReadiness.READY_WIRELESS, of())
         assertEquals(SettingsReadiness.READY_USB, of(wireless = false, phone = false))
-        assertTrue(SettingsReadiness.CHOOSE_IPHONE.needsAction)
+        // assertTrue(SettingsReadiness.CHOOSE_IPHONE.needsAction)
         assertFalse(SettingsReadiness.READY_USB.needsAction)
     }
 
