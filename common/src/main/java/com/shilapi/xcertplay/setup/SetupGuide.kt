@@ -68,5 +68,5 @@ object SetupGuide {
     }
 
     /** Only a first launch opens the guide by itself; anyone with a saved iPhone has already set up. */
-    fun shouldOpenOnLaunch(seen: Boolean, phoneChosen: Boolean): Boolean = !seen && !phoneChosen
+    fun shouldOpenOnLaunch(seen: Boolean, phoneChosen: Boolean): Boolean = !seen
 }

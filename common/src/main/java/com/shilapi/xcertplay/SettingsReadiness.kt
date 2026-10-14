@@ -11,7 +11,7 @@ internal enum class SettingsReadiness {
             setupError -> SETUP_ERROR
             active -> CONNECTED
             running -> CONNECTING
-            wireless && !phoneChosen -> CHOOSE_IPHONE
+            wireless && !phoneChosen -> READY_WIRELESS // Bypassed CHOOSE_IPHONE
             wireless && hotspotSetupNeeded -> HOTSPOT_SETUP
             wireless -> READY_WIRELESS
             else -> READY_USB

@@ -16,8 +16,8 @@ class UpdateCatalogTest {
             "tag_name": "v0.2.15",
             "draft": true,
             "assets": [
-              {"name": "DiPlay-0.2.15.apk", "browser_download_url": "https://github.com/shihabal3amri/DiPlay/releases/download/v0.2.15/DiPlay-0.2.15.apk"},
-              {"name": "SHA256SUMS.txt", "browser_download_url": "https://github.com/shihabal3amri/DiPlay/releases/download/v0.2.15/SHA256SUMS.txt"}
+              {"name": "DiPlay-0.2.15.apk", "browser_download_url": "https://github.com/zeeshannazeer1998/DiPlay/releases/download/v0.2.15/DiPlay-0.2.15.apk"},
+              {"name": "SHA256SUMS.txt", "browser_download_url": "https://github.com/zeeshannazeer1998/DiPlay/releases/download/v0.2.15/SHA256SUMS.txt"}
             ]
           },
           {
@@ -25,8 +25,8 @@ class UpdateCatalogTest {
             "draft": false,
             "prerelease": true,
             "assets": [
-              {"name": "DiPlay-0.2.14.apk", "browser_download_url": "https://github.com/shihabal3amri/DiPlay/releases/download/v0.2.14/DiPlay-0.2.14.apk"},
-              {"name": "SHA256SUMS.txt", "browser_download_url": "https://github.com/shihabal3amri/DiPlay/releases/download/v0.2.14/SHA256SUMS.txt"}
+              {"name": "DiPlay-0.2.14.apk", "browser_download_url": "https://github.com/zeeshannazeer1998/DiPlay/releases/download/v0.2.14/DiPlay-0.2.14.apk"},
+              {"name": "SHA256SUMS.txt", "browser_download_url": "https://github.com/zeeshannazeer1998/DiPlay/releases/download/v0.2.14/SHA256SUMS.txt"}
             ]
           }
         ]
@@ -38,11 +38,11 @@ class UpdateCatalogTest {
         assertEquals("v0.2.14", release?.tagName)
         assertEquals("DiPlay-0.2.14.apk", release?.apkName)
         assertEquals(
-            "https://github.com/shihabal3amri/DiPlay/releases/download/v0.2.14/DiPlay-0.2.14.apk",
+            "https://github.com/zeeshannazeer1998/DiPlay/releases/download/v0.2.14/DiPlay-0.2.14.apk",
             release?.apkUrl,
         )
         assertEquals(
-            "https://github.com/shihabal3amri/DiPlay/releases/download/v0.2.14/SHA256SUMS.txt",
+            "https://github.com/zeeshannazeer1998/DiPlay/releases/download/v0.2.14/SHA256SUMS.txt",
             release?.checksumsUrl,
         )
     }
